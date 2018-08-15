@@ -7,7 +7,9 @@ The objective of the challenge is to predict the passengers that survived and di
 
 The following approach achieved an accuracy score of 0.77033:
 
--Cleaning data - imputed age using median and embarked using mode
--One-hot encoding - dummy variables for all categorical variables
--Feature engineering - created age groups, salutation, famiy size features
--Model - trained random forest model (scikitlearn implementation)
+\begin{itemize}
+\item Cleaning data - imputed age using median and embarked using mode
+\item One-hot encoding - dummy variables for all categorical variables
+\item Feature engineering - created age groups, salutation, famiy size features
+\item Model - trained random forest model (scikitlearn implementation)
+\end{itemize}
